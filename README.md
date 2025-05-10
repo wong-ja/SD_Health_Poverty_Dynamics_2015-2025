@@ -1,4 +1,5 @@
-# Longitudinal Analysis (2015-2025) of Health-Poverty Dynamics Across U.S. Counties
+# Random Forest Analysis of Health and Poverty Dynamics in the U.S. (2015-2025)
+
 
 ## Project Overview
 
@@ -29,7 +30,7 @@ pip install duckdb pandas numpy scikit-learn matplotlib seaborn
     + **[CONUS27](https://github.com/google-research/population-dynamics/blob/master/data/benchmarks/conus27.csv) (location - health outcomes & indicators)** 
 - **[County Health Rankings - Health Outcomes & Indicators](https://www.countyhealthrankings.org/health-data/methodology-and-sources/data-documentation)** -- manually download *CHR CSV Analytic Data** for each year from 2015-2025
     + **Note**: very limited data for 2023-2025; prevalence of *NaN/Null* values in health-related columns for all years
-- **[ZIP to County FIPS codes](https://rowzero.io/workbook/8DBEAEC93C53EF406AFD4543/163?ref=fips-codes)** -- or find another method to **ZIP <=> FIPS** codes
+- **[ZIP to County FIPS codes](https://rowzero.io/datasets/fips-codes-lookup#zip-codes-to-fips-codes-mapping)** -- or find another method to **ZIP <=> FIPS** codes
     + Also used for mapping: [FIPS Codes, States & Abbr.](https://www.bls.gov/respondents/mwr/electronic-data-interchange/appendix-d-usps-state-abbreviations-and-fips-codes.htm)
 
 ### Processed Datasets
