@@ -27,9 +27,19 @@ pip install duckdb pandas numpy scikit-learn matplotlib seaborn
 - **[Google Research / Population Dynamics (PDFM)](https://github.com/google-research/population-dynamics)** --
     + **[County Unemployment](https://github.com/google-research/population-dynamics/blob/master/data/benchmarks/county_unemployment.csv) (monthly)**
     + **[ZCTA/ZIP Poverty](https://github.com/google-research/population-dynamics/blob/master/data/benchmarks/zcta_poverty.csv) (annually)**
-    + **[CONUS27](https://github.com/google-research/population-dynamics/blob/master/data/benchmarks/conus27.csv) (location - health outcomes & indicators)** 
+    + **[CONUS27](https://github.com/google-research/population-dynamics/blob/master/data/benchmarks/conus27.csv) (location - health outcomes & indicators)**
+ 
+    This project uses the [Population Dynamics Foundation Model (PDFM) Embeddings](https://github.com/google-research/population-dynamics) provided by Google Research, released under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).
+
+    > Agarwal, M., Sun, M., Kamath, C., Muslim, A., Sarker, P., Paul, J., Yee, H., Sieniek, M., Jablonski, K., Mayer, Y., Fork, D., de Guia, S., McPike, J., Boulanger, A., Shekel, T., Schottlander, D., Xiao, Y., Manukonda, M.C., Liu, Y., Bulut, N., Abu-el-haija, S., Eigenwillig, A., Kothari, P., Perozzi, B., Bharel, M., Nguyen, V., Barrington, L., Efron, N., Matias, Y., Corrado, G., Eswaran, K., Prabhakara, S., Shetty, S., & Prasad, G. (2024). General Geospatial Inference with a Population Dynamics Foundation Model. arXiv preprint arXiv:2411.07207. [arXiv:2411.07207](https://arxiv.org/abs/2411.07207)
+
 - **[County Health Rankings - Health Outcomes & Indicators](https://www.countyhealthrankings.org/health-data/methodology-and-sources/data-documentation)** -- manually download *CHR CSV Analytic Data** for each year from 2015-2025
     + **Note**: very limited data for 2023-2025; prevalence of *NaN/Null* values in health-related columns for all years
+
+    <br>
+
+     > University of Wisconsin Population Health Institute. County Health Rankings & Roadmaps 2025. [www.countyhealthrankings.org](www.countyhealthrankings.org). 
+      
 - **[ZIP to County FIPS codes](https://rowzero.io/datasets/fips-codes-lookup#zip-codes-to-fips-codes-mapping)** -- or find another method to **ZIP <=> FIPS** codes
     + Also used for mapping: [FIPS Codes, States & Abbr.](https://www.bls.gov/respondents/mwr/electronic-data-interchange/appendix-d-usps-state-abbreviations-and-fips-codes.htm)
 
